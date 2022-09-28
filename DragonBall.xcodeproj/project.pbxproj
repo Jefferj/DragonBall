@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		61A6D66228E3A5EC007FBC87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6D66128E3A5EC007FBC87 /* AppDelegate.swift */; };
 		61A6D66428E3A5EC007FBC87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6D66328E3A5EC007FBC87 /* SceneDelegate.swift */; };
-		61A6D66628E3A5EC007FBC87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6D66528E3A5EC007FBC87 /* ViewController.swift */; };
-		61A6D66928E3A5EC007FBC87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A6D66728E3A5EC007FBC87 /* Main.storyboard */; };
 		61A6D66B28E3A5F5007FBC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A6D66A28E3A5F5007FBC87 /* Assets.xcassets */; };
 		61A6D66E28E3A5F5007FBC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A6D66C28E3A5F5007FBC87 /* LaunchScreen.storyboard */; };
+		61AB48B028E4E9920077174D /* DragonBallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB48AF28E4E9920077174D /* DragonBallListViewController.swift */; };
+		61AB48B228E4E9E40077174D /* DragonBallDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB48B128E4E9E40077174D /* DragonBallDetailsViewController.swift */; };
+		61AB48B428E4F35C0077174D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB48B328E4F35C0077174D /* ApiManager.swift */; };
+		61AB48B628E4F4C80077174D /* DragonBallListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB48B528E4F4C80077174D /* DragonBallListService.swift */; };
+		61AB48B828E4F7620077174D /* DragonBallListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AB48B728E4F7620077174D /* DragonBallListDTO.swift */; };
+		D8CAA6995992F9B504353452 /* Pods_DragonBall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4059015B7D879AB2EB46E2 /* Pods_DragonBall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00FCA51CC86CA36A1B246B1F /* Pods-DragonBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonBall.debug.xcconfig"; path = "Target Support Files/Pods-DragonBall/Pods-DragonBall.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4059015B7D879AB2EB46E2 /* Pods_DragonBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragonBall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6175DCFA257525C06FB1529C /* Pods-DragonBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonBall.release.xcconfig"; path = "Target Support Files/Pods-DragonBall/Pods-DragonBall.release.xcconfig"; sourceTree = "<group>"; };
 		61A6D65E28E3A5EC007FBC87 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A6D66128E3A5EC007FBC87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61A6D66328E3A5EC007FBC87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61A6D66528E3A5EC007FBC87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61A6D66828E3A5EC007FBC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61A6D66A28E3A5F5007FBC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A6D66D28E3A5F5007FBC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A6D66F28E3A5F5007FBC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AB48AF28E4E9920077174D /* DragonBallListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallListViewController.swift; sourceTree = "<group>"; };
+		61AB48B128E4E9E40077174D /* DragonBallDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallDetailsViewController.swift; sourceTree = "<group>"; };
+		61AB48B328E4F35C0077174D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		61AB48B528E4F4C80077174D /* DragonBallListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallListService.swift; sourceTree = "<group>"; };
+		61AB48B728E4F7620077174D /* DragonBallListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallListDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CAA6995992F9B504353452 /* Pods_DragonBall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				61A6D66028E3A5EC007FBC87 /* DragonBall */,
 				61A6D65F28E3A5EC007FBC87 /* Products */,
+				E132A1B1F841F12129CA639C /* Pods */,
+				E3936E95FD1DD826FE06D05D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,147 @@
 		61A6D66028E3A5EC007FBC87 /* DragonBall */ = {
 			isa = PBXGroup;
 			children = (
+				61AB48A128E4E7580077174D /* App */,
 				61A6D66128E3A5EC007FBC87 /* AppDelegate.swift */,
 				61A6D66328E3A5EC007FBC87 /* SceneDelegate.swift */,
-				61A6D66528E3A5EC007FBC87 /* ViewController.swift */,
-				61A6D66728E3A5EC007FBC87 /* Main.storyboard */,
 				61A6D66A28E3A5F5007FBC87 /* Assets.xcassets */,
 				61A6D66C28E3A5F5007FBC87 /* LaunchScreen.storyboard */,
 				61A6D66F28E3A5F5007FBC87 /* Info.plist */,
 			);
 			path = DragonBall;
+			sourceTree = "<group>";
+		};
+		61AB48A128E4E7580077174D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48A228E4E7630077174D /* Scenes */,
+				61AB48A328E4E77A0077174D /* Shared */,
+				61AB48A428E4E77F0077174D /* Utils */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61AB48A228E4E7630077174D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48A628E4E8010077174D /* DragonBallList */,
+				61AB48A528E4E7F40077174D /* DragonBallDetails */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		61AB48A328E4E77A0077174D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48AE28E4E8990077174D /* Networking */,
+				61AB48AD28E4E8940077174D /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		61AB48A428E4E77F0077174D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		61AB48A528E4E7F40077174D /* DragonBallDetails */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48AC28E4E8700077174D /* ViewModel */,
+				61AB48AB28E4E86A0077174D /* View */,
+				61AB48AA28E4E8640077174D /* Service */,
+			);
+			path = DragonBallDetails;
+			sourceTree = "<group>";
+		};
+		61AB48A628E4E8010077174D /* DragonBallList */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48A928E4E8480077174D /* ViewModel */,
+				61AB48A828E4E8430077174D /* View */,
+				61AB48A728E4E83D0077174D /* Service */,
+			);
+			path = DragonBallList;
+			sourceTree = "<group>";
+		};
+		61AB48A728E4E83D0077174D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48B528E4F4C80077174D /* DragonBallListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		61AB48A828E4E8430077174D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48AF28E4E9920077174D /* DragonBallListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61AB48A928E4E8480077174D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61AB48AA28E4E8640077174D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		61AB48AB28E4E86A0077174D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48B128E4E9E40077174D /* DragonBallDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61AB48AC28E4E8700077174D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61AB48AD28E4E8940077174D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48B728E4F7620077174D /* DragonBallListDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61AB48AE28E4E8990077174D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				61AB48B328E4F35C0077174D /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E132A1B1F841F12129CA639C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FCA51CC86CA36A1B246B1F /* Pods-DragonBall.debug.xcconfig */,
+				6175DCFA257525C06FB1529C /* Pods-DragonBall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3936E95FD1DD826FE06D05D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B4059015B7D879AB2EB46E2 /* Pods_DragonBall.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61A6D67228E3A5F5007FBC87 /* Build configuration list for PBXNativeTarget "DragonBall" */;
 			buildPhases = (
+				C148E1B9386C35C1541AAE50 /* [CP] Check Pods Manifest.lock */,
 				61A6D65A28E3A5EC007FBC87 /* Sources */,
 				61A6D65B28E3A5EC007FBC87 /* Frameworks */,
 				61A6D65C28E3A5EC007FBC87 /* Resources */,
+				37EF81E483F6351E82A6798F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +274,71 @@
 			files = (
 				61A6D66E28E3A5F5007FBC87 /* LaunchScreen.storyboard in Resources */,
 				61A6D66B28E3A5F5007FBC87 /* Assets.xcassets in Resources */,
-				61A6D66928E3A5EC007FBC87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37EF81E483F6351E82A6798F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonBall/Pods-DragonBall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonBall/Pods-DragonBall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragonBall/Pods-DragonBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C148E1B9386C35C1541AAE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragonBall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61A6D65A28E3A5EC007FBC87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A6D66628E3A5EC007FBC87 /* ViewController.swift in Sources */,
 				61A6D66228E3A5EC007FBC87 /* AppDelegate.swift in Sources */,
+				61AB48B028E4E9920077174D /* DragonBallListViewController.swift in Sources */,
+				61AB48B428E4F35C0077174D /* ApiManager.swift in Sources */,
+				61AB48B228E4E9E40077174D /* DragonBallDetailsViewController.swift in Sources */,
 				61A6D66428E3A5EC007FBC87 /* SceneDelegate.swift in Sources */,
+				61AB48B628E4F4C80077174D /* DragonBallListService.swift in Sources */,
+				61AB48B828E4F7620077174D /* DragonBallListDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61A6D66728E3A5EC007FBC87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61A6D66828E3A5EC007FBC87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61A6D66C28E3A5F5007FBC87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +466,7 @@
 		};
 		61A6D67328E3A5F5007FBC87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FCA51CC86CA36A1B246B1F /* Pods-DragonBall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +477,6 @@
 				INFOPLIST_FILE = DragonBall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,12 +488,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		61A6D67428E3A5F5007FBC87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6175DCFA257525C06FB1529C /* Pods-DragonBall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +505,6 @@
 				INFOPLIST_FILE = DragonBall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
