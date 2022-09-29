@@ -9,33 +9,33 @@ import UIKit
 
 class DragonBallListViewController: UIViewController {
     
-    private lazy var button : UIButton = {
-        let aButton = UIButton()
-        aButton.setTitle("View Detail", for: .normal)
-        aButton.backgroundColor = .red
-        aButton.layer.cornerRadius = 10
-        aButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(aButton)
-        return aButton
+    private lazy var tableView: UITableView = {
+        let aTable = UITableView()
+        aTable.translatesAutoresizingMaskIntoConstraints = false
+        aTable.delegate = self
+        aTable.dataSource = self
+        view.addSubview(aTable)
+        return aTable
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    func setuView() {
         self.title = "Dragon Ball Z"
         self.view.backgroundColor = .white
-        
+        self.navigationController?.navigationBar
+            .prefersLargeTitles = true
+    }
+
+    func setupConstraints() {
         NSLayoutConstraint.activate([
-            button.heightAnchor.constraint(equalToConstant: 48),
-            button.widthAnchor.constraint(equalToConstant: 120),
-            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            tableView.topAnchor.constraint(equalTo: view.topAnchor)
         ])
     }
-    
-    @objc
-    func goToDetail(){
-        let detail = DragonBallDetailsViewController()
-        self.navigationController?.pushViewController(detail, animated: true)
-    }
-    
 }
